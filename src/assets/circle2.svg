@@ -1,0 +1,20 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 905 927" width="905" height="927">
+	<title>draft-integrations-svg</title>
+	<defs>
+		<radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,441,-441,0,450,460)">
+			<stop offset=".708" stop-color="#0086ec" stop-opacity="0"/>
+			<stop offset="1" stop-color="#0086ec" stop-opacity="1"/>
+		</radialGradient>
+		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,882,-882,0,450,19)">
+			<stop offset="0" stop-color="#0d80d8" stop-opacity="0"/>
+			<stop offset=".5" stop-color="#0d80d8" stop-opacity=".72"/>
+			<stop offset="1" stop-color="#0d80d8" stop-opacity="0"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { opacity: .1;fill: url(#g1) } 
+		.s1 { fill: none;stroke: url(#g2);stroke-width: 2 } 
+	</style>
+	<path id="Layer" class="s0" d="m450 901c-243.9 0-441-197.1-441-441 0-243.9 197.1-441 441-441 243.9 0 441 197.1 441 441 0 243.9-197.1 441-441 441z"/>
+	<path id="Layer" class="s1" d="m450 900c-243.3 0-440-196.7-440-440 0-243.3 196.7-440 440-440 243.3 0 440 196.7 440 440 0 243.3-196.7 440-440 440z"/>
+</svg>

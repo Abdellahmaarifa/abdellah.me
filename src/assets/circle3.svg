@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 542 538" width="542" height="538">
+	<title>draft-integrations-svg</title>
+	<defs>
+		<radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,259,-259,0,272,266)">
+			<stop offset=".708" stop-color="#0086ec" stop-opacity="0"/>
+			<stop offset="1" stop-color="#0086ec" stop-opacity="1"/>
+		</radialGradient>
+		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,518,-518,0,272,7)">
+			<stop offset="0" stop-color="#0d80d8" stop-opacity="1"/>
+			<stop offset="1" stop-color="#0d80d8" stop-opacity="0"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { opacity: .1;fill: url(#g1) } 
+		.s1 { opacity: .6;fill: none;stroke: url(#g2);stroke-width: 2 } 
+	</style>
+	<path id="Layer" class="s0" d="m272 525c-143.2 0-259-115.8-259-259 0-143.2 115.8-259 259-259 143.2 0 259 115.8 259 259 0 143.2-115.8 259-259 259z"/>
+	<path id="Layer" class="s1" d="m272 524c-142.7 0-258-115.3-258-258 0-142.7 115.3-258 258-258 142.7 0 258 115.3 258 258 0 142.7-115.3 258-258 258z"/>
+</svg>
