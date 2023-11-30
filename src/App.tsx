@@ -34,7 +34,7 @@ const App = () => {
         <Projects />
         <div
           id="contact"
-          tw="p-[20px] flex flex-col justify-center items-center  w-full"
+          tw="p-[20px] flex flex-col justify-center items-center  w-full text-white"
         >
           <h1>So let's be real?</h1>
 
@@ -52,12 +52,21 @@ const App = () => {
             i like books that goes dip in to the subject, this are some of the
             books i finshed reading and i have fun:
           </p>
-          <div>BOOK HERE.</div>
+          <div tw="flex items-center justify-center p-[10px] gap-[15px] flex-wrap">
+            <div tw=" w-[150px] h-[200px] rounded-[5px] bg-[#152B3D] [border: 1px solid #0D558D] flex justify-center items-center">
+              <div tw="w-[90%] h-[90%] bg-green-300 rounded-[5px] "></div>
+            </div>
+          </div>
           <p>
             i am also taking a lot of courses that are available to me: this
             some certs :{" "}
           </p>
-          <div>CERTS HERE</div>
+          <div tw="flex items-center justify-center p-[10px] gap-[15px] flex-wrap">
+            <div tw=" w-[150px] h-[130px] rounded-[5px] bg-[#152B3D] [border: 1px solid #0D558D] flex justify-center items-start p-[10px] flex-col">
+              <div tw="w-[90%] h-[80%] bg-green-300 rounded-[5px] flex-col"></div>
+              <ViewMoreBtn text="" />
+            </div>
+          </div>
           <h3>But Wait? How about Projects?</h3>
           <p>
             yes learning is about doing, and that's true i am alwase working on
