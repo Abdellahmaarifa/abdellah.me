@@ -25,6 +25,7 @@ const HomeContainer = tw.div`
   min-h-screen
   m-auto
   md:gap-[40px]
+
 `;
 
 const App = () => {
@@ -51,7 +52,7 @@ const App = () => {
 // Styling
 
 const Body = tw.div`
-  h-full overflow-hidden flex-1 flex flex-col gap-[60px]   md:p-[80px] justify-center items-center m-auto
+  h-full overflow-hidden  flex-1 flex flex-col gap-[60px]   md:[padding: 60px 40px 0 40px] justify-center items-center m-auto
 `;
 
 export default App;

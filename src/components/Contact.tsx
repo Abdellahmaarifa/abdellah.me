@@ -56,7 +56,7 @@ const Conatct = () => {
         to solve real world problems: and this is the project i am currently
         working on :
       </p>
-      <div tw="w-full h-fit  rounded-[5px] sm:p-[40px]">
+      <div tw="w-full h-fit  rounded-[5px] sm:[padding: 40px 0]">
         <h1 tw="m-auto w-full text-center mb-[32px] capitalize text-[25px] text-white font-inter [font-weight: 600]">
           challengZoo
         </h1>

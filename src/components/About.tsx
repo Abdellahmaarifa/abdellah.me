@@ -2,7 +2,7 @@ import tw from "twin.macro";
 
 const About = () => {
   return (
-    <div id="about" tw="w-full ">
+    <div id="about" tw="w-full p-[20px] md:p-0">
       <Paragraph>
         <span>
           As a software developer, I started the infinite loop of learning,
@@ -30,6 +30,6 @@ const About = () => {
 
 // Styling
 const Paragraph = tw.p`
-    text-[#a9bbcb] text-[17px] flex flex-col gap-[12px]
+    text-[#a9bbcb] text-[18px] flex flex-col gap-[12px] 
 `;
 export default About;

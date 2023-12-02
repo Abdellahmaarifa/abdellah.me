@@ -8,13 +8,12 @@ const Nav = () => {
   useEffect(() => {
     const handleScroll = () => {
       // Get the positions of each section
-      const aboutSection = document.getElementById("about")!.offsetTop;
+      const aboutSection = document.getElementById("about")!.offsetTop - 20;
       const projectSection = document.getElementById("projects")!.offsetTop;
       const contactSection = document.getElementById("contact")!.offsetTop;
 
       // Get the current scroll position
       const scrollPosition = window.scrollY;
-      console.log("----", aboutSection);
       // Determine the active section based on scroll position
       if (scrollPosition < projectSection) {
         setActiveMenuItem("about");
@@ -51,7 +50,7 @@ const Nav = () => {
   );
 };
 
-const HomeNav = tw.div`
+const HomeNav = tw.nav`
   md:flex flex-col gap-[20px] [padding: 0 40px] mt-[20px]  hidden
 `;
 

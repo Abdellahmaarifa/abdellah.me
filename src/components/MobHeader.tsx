@@ -77,9 +77,11 @@ const ImgContainer = tw.div`
     w-[100px]
     rounded-[50%]
     relative
-    bottom-[47px]
+    xsm:bottom-[47px]
     left-1/2
     -translate-x-1/2
+    mb-[10px]
+    xsm:mb-0
     xsm:-mt-[80px]
     overflow-hidden
     

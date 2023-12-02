@@ -2,6 +2,9 @@ import { createGlobalStyle } from "styled-components";
 import tw, { GlobalStyles as BaseStyles, theme } from "twin.macro";
 
 const CustomStyles = createGlobalStyle({
+  html: {
+    ...tw`scroll-smooth`,
+  },
   body: {
     WebkitTapHighlightColor: theme`colors.purple.500`,
     ...tw`antialiased`,

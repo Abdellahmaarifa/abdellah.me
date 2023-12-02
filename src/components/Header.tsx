@@ -16,7 +16,11 @@ const Header = () => {
 
       <HomeInfo>
         <HomeInfoHeader>
-          Hello, I'am <span tw="text-[#17a2b8]">Abdellah</span>
+          <span>Hello,</span>
+          <span>
+            <span>I am </span>
+            <span tw="text-[#17a2b8]">Abdellah</span>
+          </span>
         </HomeInfoHeader>
         <HomeInfoSubHeader>a Software Developer</HomeInfoSubHeader>
         <HomeInfoDescription>
@@ -36,7 +40,7 @@ const Header = () => {
 //styling
 const HeadingContainer = tw.div`
     xsm:h-[380px]
-    xl:w-[600px]
+    xl:w-fit
     flex
     justify-center
     items-center
@@ -53,7 +57,7 @@ const HomeInfo = tw.div`
 `;
 
 const HomeInfoHeader = tw.h2`
-    lg:text-[30px] xl:text-[40px] font-inter font-bold 
+    lg:text-[30px] xl:text-[40px] font-inter font-bold flex flex-col
 `;
 const HomeInfoSubHeader = tw.h3`
     lg:text-[24px] xl:text-[30px] mb-[30px] 
