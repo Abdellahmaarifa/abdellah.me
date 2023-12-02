@@ -7,7 +7,7 @@ import Header from "./Header";
 import Nav from "./Nav";
 
 const HomeSideContainer = tw.div`
-sticky h-[90vh]  w-fit  top-[50px] flex flex-col justify-between
+md:sticky md:h-[90vh]  w-fit top-[50px] hidden md:flex flex-col md:justify-between 
 pb-[20px] 
 `;
 

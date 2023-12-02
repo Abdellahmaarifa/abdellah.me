@@ -29,11 +29,11 @@ const Project = ({
 // Styling
 
 const ProjectContainer = tw.div`
-    flex w-full gap-[15px] [padding: 15px 20px] rounded-[5px] hover:bg-[#152b3d22] hover:border-[#0d528721] hover:border-[1px] hover:border-solid
+    flex flex-col sm:flex-row  w-full gap-[15px] [padding: 10px] sm:[padding: 15px 20px] rounded-[5px] hover:bg-[#152b3d22] hover:border-[#0d528721] hover:border-[1px] hover:border-solid
 `;
 
 const ProjectImgConatiner = tw.img`
-    w-[30%] h-[80px] rounded-[5px] border-solid border-[1px] border-[#0d528721]
+    w-[100%] sm:w-[30%] h-fit p-[5px] rounded-[5px] border-solid border-[1px] border-[#0d528721]
 `;
 const ProjectInfoContainer = tw.div`
     flex flex-col w-[100%] [padding: 0 10px] gap-[10px]

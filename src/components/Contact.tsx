@@ -56,7 +56,7 @@ const Conatct = () => {
         to solve real world problems: and this is the project i am currently
         working on :
       </p>
-      <div tw="w-full h-fit  rounded-[5px] p-[40px]">
+      <div tw="w-full h-fit  rounded-[5px] sm:p-[40px]">
         <h1 tw="m-auto w-full text-center mb-[32px] capitalize text-[25px] text-white font-inter [font-weight: 600]">
           challengZoo
         </h1>
@@ -120,16 +120,30 @@ const Feature = ({
   onClick: MouseEventHandler;
 }) => {
   return (
-    <div tw="flex w-full h-auto [transition: all 1s] " onClick={onClick}>
+    <div tw="flex w-full h-auto [transition: all 1s]" onClick={onClick}>
       <div
         tw="w-[3px] h-auto rounded-[5px] bg-blue-400
-       cursor-pointer [transition: all .5s]"
+       cursor-pointer "
         style={{
           background: on ? "rgb(96 165 250" : "#33424E",
+          transition: "all 1s",
         }}
       ></div>
-      <div tw="flex flex-col gap-[10px] h-fit [padding: 8px 0px] justify-start items-start [transition: all 1s]">
-        {on && <img src={icon} alt="" tw="w-[40px] ml-[18px] " />}
+      <div
+        tw="flex flex-col gap-[10px] h-fit justify-start items-start "
+        style={{
+          padding: on ? "8px 0" : 0,
+        }}
+      >
+        <img
+          src={icon}
+          alt=""
+          tw="w-[40px] ml-[18px]"
+          style={{
+            height: on ? "auto" : 0,
+          }}
+        />
+
         <h4
           tw="font-inter text-[18px] [padding: 0 24px] 
         cursor-pointer capitalize [font-weight: 600]"
@@ -139,12 +153,17 @@ const Feature = ({
         >
           {title}
         </h4>
-        {on && (
-          <div tw="[padding: 0 24px] flex flex-col justify-start items-start gap-[10px]">
-            <p tw="[transition: all 1s]">{description}</p>
-            <ViewMoreBtn text={actionText} link={link} />
-          </div>
-        )}
+        <div
+          tw="overflow-hidden  [padding: 0 24px] 
+          flex flex-col justify-start items-start gap-[10px]"
+          style={{
+            height: on ? "fit-content" : 0,
+            transition: "all .4s",
+          }}
+        >
+          <p tw="">{description}</p>
+          <ViewMoreBtn text={actionText} link={link} />
+        </div>
       </div>
     </div>
   );

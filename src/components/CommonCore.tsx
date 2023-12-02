@@ -24,7 +24,7 @@ const CommonCore = () => {
 };
 
 const CircleContainer = tw.div`
-    w-[450px] h-[450px] relative
+   w-[85vw] h-[85vw] md:w-[50vw] md:h-[50vw] lg:w-[450px] lg:h-[450px] relative
 `;
 
 const CommonCoreContainer = tw.div`

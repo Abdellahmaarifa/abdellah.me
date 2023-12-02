@@ -10,6 +10,9 @@ module.exports = {
         wotfard: "/src/assets/wotfard-regular-webfont.ttf",
         inter: "Inter, sans-serif",
       },
+      screens: {
+        xsm: "400px",
+      },
     },
   },
   plugins: [],

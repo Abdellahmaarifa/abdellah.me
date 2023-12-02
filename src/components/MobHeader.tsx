@@ -4,7 +4,7 @@ import Logo from "../assets/logo.svg?react";
 import ProfileImg from "../assets/profile.png";
 import ViewMoreBtn from "./ViewMoreBtn";
 
-const Header = () => {
+const MobHeader = () => {
   return (
     <HeadingContainer>
       <LogoContainer>
@@ -44,12 +44,12 @@ const HeadingContainer = tw.div`
     flex-col
     p-[15px]
     xsm:p-0
-    sm:justify-start
-    sm:items-start
+    lg:hidden
+    md:h-fit
 `;
 
 const HomeInfo = tw.div`
-    h-full flex-1 flex  justify-center xsm:items-start items-center  flex-col text-[#e5e7eb] font-inter md:hidden xl:flex
+    h-full flex-1 flex  justify-center xsm:items-start items-center  flex-col text-[#e5e7eb] font-inter lg:hidden xl:flex
 `;
 
 const HomeInfoHeader = tw.h2`
@@ -69,7 +69,7 @@ const LogoContainer = tw.div`
     relative
     flex
     flex-col
-
+    md:hidden
 `;
 
 const ImgContainer = tw.div`
@@ -86,4 +86,4 @@ const ImgContainer = tw.div`
 
 `;
 
-export default Header;
+export default MobHeader;

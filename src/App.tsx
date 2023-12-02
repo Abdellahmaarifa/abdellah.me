@@ -8,17 +8,23 @@ import Projects from "./components/Projects";
 import ViewMoreBtn from "./components/ViewMoreBtn";
 import { useProjectContext } from "./context/Project";
 import Conatct from "./components/Contact";
+import Header from "./components/Header";
+import MobHeader from "./components/MobHeader";
 
 const HomeContainer = tw.div`
   bg-[#0c1a24]
   h-full
   w-screen
-  [padding: 40px 300px]
+  max-w-[1200px]
+  [padding: 40px 0]
   justify-between
   flex
   items-start
-  flex-row
+  flex-col
+  md:flex-row
   min-h-screen
+  m-auto
+  md:gap-[40px]
 `;
 
 const App = () => {
@@ -31,12 +37,13 @@ const App = () => {
     >
       <HomeSide />
       <Body>
+        <MobHeader />
         <About />
         <CommonCore />
         <Projects />
         <Conatct />
       </Body>
-      {project && <ProjectInfo />}
+      <ProjectInfo />
     </HomeContainer>
   );
 };
@@ -44,7 +51,7 @@ const App = () => {
 // Styling
 
 const Body = tw.div`
-  h-full w-[800px] flex flex-col gap-[60px] p-[80px] justify-center items-center
+  h-full overflow-hidden flex-1 flex flex-col gap-[60px]   md:p-[80px] justify-center items-center m-auto
 `;
 
 export default App;

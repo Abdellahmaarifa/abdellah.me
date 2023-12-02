@@ -52,7 +52,7 @@ const Nav = () => {
 };
 
 const HomeNav = tw.div`
-  flex flex-col gap-[20px] [padding: 0 40px] mt-[20px]  
+  md:flex flex-col gap-[20px] [padding: 0 40px] mt-[20px]  hidden
 `;
 
 export default Nav;

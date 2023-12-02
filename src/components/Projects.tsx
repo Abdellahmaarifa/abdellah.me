@@ -1,11 +1,11 @@
 import tw from "twin.macro";
 import Project from "./Project";
-
+import Cert from "../assets/cert.jpg";
 const Projects = () => {
   return (
     <ProjectsConatiner id="projects">
       <Project
-        img=""
+        img={Cert}
         name="Libft, introduction to c programming."
         description="As a software developer, I started the infinite loop of learning,
           coding, and debugging two years ago, and during this period I've
@@ -14,7 +14,7 @@ const Projects = () => {
         stack={["HTML", "CSS", "JS"]}
       />
       <Project
-        img=""
+        img={Cert}
         name="Libft, introduction to c programming."
         description="As a software developer, I started the infinite loop of learning,
           coding, and debugging two years ago, and during this period I've
@@ -23,7 +23,7 @@ const Projects = () => {
         stack={["HTML", "CSS", "JS"]}
       />
       <Project
-        img=""
+        img={Cert}
         name="Libft, introduction to c programming."
         description="As a software developer, I started the infinite loop of learning,
           coding, and debugging two years ago, and during this period I've

@@ -2,11 +2,18 @@ import tw from "twin.macro";
 import ViewMoreBtn from "./ViewMoreBtn";
 import PipexIcon from "../assets/pipex.png";
 import { useProjectContext } from "../context/Project";
+import { ProjectType } from "../../types/projects.type";
 
 const ProjectInfo = () => {
   const { project } = useProjectContext();
   return (
-    <ProjectInfoContainer onClick={(e) => e.stopPropagation()}>
+    <ProjectInfoContainer
+      onClick={(e) => e.stopPropagation()}
+      style={{
+        opacity: project ? "100%" : "0",
+        transition: project ? "opacity 1s " : "none",
+      }}
+    >
       <ProjectInfoCaption>
         <ProjectInfoImg>
           <img src={project?.image} alt="" />
@@ -40,7 +47,7 @@ const ProjectInfo = () => {
 };
 
 const ProjectInfoContainer = tw.div`
-    w-[250px]  bg-[#152B3D] 
+    overflow-hidden w-[250px] bg-[#152B3D] 
     [border: 1px solid #0D558D]
     rounded-[5px]
     fixed top-[40px] right-[40px] flex flex-col gap-[15px] p-[15px]
