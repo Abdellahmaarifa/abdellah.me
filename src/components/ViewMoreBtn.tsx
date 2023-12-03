@@ -17,7 +17,9 @@ const ViewMoreBtn = ({
     <ActionBtnContainer
       style={{ ...style, fontSize: size == "sm" ? "12px" : "16px" }}
     >
-      <a href={link}>{text}</a>
+      <a href={link} target="_blank">
+        {text}
+      </a>
       <RightArrow
         tw="stroke-red-100"
         style={{

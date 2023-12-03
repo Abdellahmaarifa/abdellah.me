@@ -18,7 +18,10 @@ const CommonCore = () => {
           </Circle>
         </Circle>
       </CircleContainer>
-      <ViewMoreBtn text="View all the projects" />
+      <ViewMoreBtn
+        text="View all the projects"
+        link="https://github.com/Abdellahmaarifa-1337"
+      />
     </CommonCoreContainer>
   );
 };
@@ -32,6 +35,7 @@ const CommonCoreContainer = tw.div`
     items-center
     justify-center
     gap-[20px]
+    p-0
 `;
 
 export default CommonCore;

@@ -24,13 +24,14 @@ const Header = () => {
         </HomeInfoHeader>
         <HomeInfoSubHeader>a Software Developer</HomeInfoSubHeader>
         <HomeInfoDescription>
-          I build exceptional and accessible digital experiences for the web.
+          I develop efficient web solutions for a seamless user experience
         </HomeInfoDescription>
         <ViewMoreBtn
           text="View full resume"
           style={{
             marginTop: "20px",
           }}
+          link="/resume.pdf"
         />
       </HomeInfo>
     </HeadingContainer>

@@ -51,7 +51,7 @@ const ProjectInfoContainer = tw.div`
     [border: 1px solid #0D558D]
     rounded-[5px]
     fixed top-[40px] right-[40px] flex flex-col gap-[15px] p-[15px]
-    [box-shadow: 2px 2px 33px 3px rgba(13,57,88,0.6)]
+    [box-shadow: 2px 2px 33px 3px rgba(13,57,88,0.6)] z-[10]
     `;
 const ProjectInfoCaption = tw.div`
   flex gap-[15px] w-full

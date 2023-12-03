@@ -53,13 +53,13 @@ const HomeInfo = tw.div`
 `;
 
 const HomeInfoHeader = tw.h2`
-    lg:text-[30px] xl:text-[40px] font-inter font-bold 
+    text-[18px] xsm:text-[20px] sm:text-[26px] lg:text-[30px] xl:text-[40px] font-inter font-bold 
 `;
 const HomeInfoSubHeader = tw.h3`
-    lg:text-[24px] xl:text-[30px] mb-[30px] 
+    text-[14px] xsm:text-[15px] sm:text-[18px] lg:text-[24px] xl:text-[30px] mb-[30px] 
 `;
 const HomeInfoDescription = tw.p`
-    xl:w-[300px]  text-[18px] text-[#a9bbcb] text-center xsm:text-start
+    text-[16px] xl:w-[300px]  xsm:text-[18px] text-[#a9bbcb] text-center xsm:text-start w-[80%]
 `;
 
 const LogoContainer = tw.div`

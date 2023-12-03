@@ -11,6 +11,7 @@ const CustomStyles = createGlobalStyle({
     ...tw`
       bg-[#0c1a24]
       [box-sizing: border-box]
+      [overflow-x: hidden]
     `,
   },
 });

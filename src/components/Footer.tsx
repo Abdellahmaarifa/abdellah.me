@@ -6,10 +6,10 @@ import LinkedinIcon from "../assets/linkedin.svg?react";
 const Footer = () => {
   return (
     <HomeLinks>
-      <HomeLinksIcon href="#">
+      <HomeLinksIcon href="https://github.com/Abdellahmaarifa">
         <GithubIcon />
       </HomeLinksIcon>
-      <HomeLinksIcon href="#">
+      <HomeLinksIcon href="https://www.linkedin.com/in/abdellah-maarifa/">
         <LinkedinIcon />
       </HomeLinksIcon>
     </HomeLinks>
