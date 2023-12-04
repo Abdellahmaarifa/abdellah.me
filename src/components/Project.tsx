@@ -38,8 +38,8 @@ const Project = ({
         )}
         <ProjectDescription>{description}</ProjectDescription>
         <ProjectStack>
-          {stack.map((el) => {
-            return <ProjectTech>{el}</ProjectTech>;
+          {stack.map((el, i) => {
+            return <ProjectTech key={i}>{el}</ProjectTech>;
           })}
         </ProjectStack>
       </ProjectInfoContainer>

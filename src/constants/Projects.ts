@@ -43,7 +43,7 @@ export const PROJECTS: ProjectsType = {
       versions of standard library functions, such as strlen and strcpy, along with utility functions that become \
       fundamental tools for future projects",
     subjectLink:
-      "https://github.com/Abdellahmaarifa-1337/Libft/blob/master/en.subject.pdf",
+      "https://github.com/Abdellahmaarifa-1337/Libft/blob/master/subject/en.subject.pdf",
     githubLink: "https://github.com/Abdellahmaarifa-1337/Libft",
   },
   getNextLine: {
@@ -52,9 +52,9 @@ export const PROJECTS: ProjectsType = {
     stack: ["C"],
     description:
       "project is an essential utility designed to read content line by line, whether from a file, standard input (stdin), or even a network connection",
-    subjectLink: "https://github.com/Abdellahmaarifa-1337/get_next_line",
-    githubLink:
-      "https://github.com/Abdellahmaarifa-1337/get_next_line/blob/main/en.subject%20(1).pdf",
+    subjectLink:
+      "https://github.com/Abdellahmaarifa-1337/get_next_line/blob/main/subject/en.subject.pdf",
+    githubLink: "https://github.com/Abdellahmaarifa-1337/get_next_line",
   },
   printf: {
     name: "Printf",
@@ -62,8 +62,9 @@ export const PROJECTS: ProjectsType = {
     stack: ["C"],
     description:
       "This project serves as a comprehensive introduction to variadic functions, providing insights into their functionality and implementation. Once validated, this custom printf function becomes a reusable tool for formatting output and will play a vital role in future projects.",
-    subjectLink: "",
-    githubLink: "",
+    subjectLink:
+      "https://github.com/Abdellahmaarifa-1337/ft_printf/blob/master/subject/en.subject.pdf",
+    githubLink: "https://github.com/Abdellahmaarifa-1337/ft_printf",
   },
   born: {
     name: "Born2beroot",
@@ -71,8 +72,9 @@ export const PROJECTS: ProjectsType = {
     stack: ["Linux"],
     description:
       "The Born2beroot project marks the initiation into the fascinating realm of virtualization. It is designed to provide a foundational understanding of virtualization technologies and their applications.",
-    subjectLink: "",
-    githubLink: "",
+    subjectLink:
+      "https://github.com/Abdellahmaarifa-1337/Born2beroot/blob/main/subject/en.subject.pdf",
+    githubLink: "https://github.com/Abdellahmaarifa-1337/Born2beroot",
   },
   solong: {
     name: "so_long",
@@ -80,8 +82,9 @@ export const PROJECTS: ProjectsType = {
     stack: ["C"],
     description:
       "The so_long project is an immersive exploration into the world of game development using the minilibx library. This project offers hands-on experience with creating a small 2D game, delving into essential concepts such as textures, sprites, and tiles.",
-    subjectLink: "",
-    githubLink: "",
+    subjectLink:
+      "https://github.com/Abdellahmaarifa-1337/so_long/blob/main/subject/en.subject.pdf",
+    githubLink: "https://github.com/Abdellahmaarifa-1337/so_long",
   },
   pushSwap: {
     name: "push_swap",
@@ -89,8 +92,9 @@ export const PROJECTS: ProjectsType = {
     stack: ["C"],
     description:
       "The push_swap project is a challenging exploration into sorting data on a stack using a limited set of instructions and minimizing the number of moves",
-    subjectLink: "",
-    githubLink: "",
+    subjectLink:
+      "https://github.com/Abdellahmaarifa-1337/push_swap/blob/main/subject/en.subject.pdf",
+    githubLink: "https://github.com/Abdellahmaarifa-1337/push_swap",
   },
   minishell: {
     name: "minishell",
@@ -98,8 +102,9 @@ export const PROJECTS: ProjectsType = {
     stack: ["C"],
     description:
       "In the mini-shell Creation project, the goal was to conceive and implement a straightforward yet functional shell—a fundamental component of operating systems.",
-    subjectLink: "",
-    githubLink: "",
+    subjectLink:
+      "https://github.com/Abdellahmaarifa-1337/minishell/blob/main/subject/en.subject.pdf",
+    githubLink: "https://github.com/Abdellahmaarifa-1337/minishell",
   },
   cube: {
     name: "cub3d",
@@ -109,8 +114,9 @@ export const PROJECTS: ProjectsType = {
       "Embark on a captivating journey inspired by the world-famous 90's first-person shooter. \
       The cub3d Maze Exploration project invites exploration into the fascinating \
       realm of ray-casting.",
-    subjectLink: "",
-    githubLink: "",
+    subjectLink:
+      "https://github.com/Abdellahmaarifa-1337/cub3d/blob/master/subject/en.subject.pdf",
+    githubLink: "https://github.com/Abdellahmaarifa-1337/cub3d",
   },
   cPlusPlus: {
     name: "c++",
@@ -118,8 +124,9 @@ export const PROJECTS: ProjectsType = {
     stack: ["c++"],
     description:
       "a series of exercises targeting essential concepts in C++, with a specific focus on inheritance, IO operations, polymorphism, casting, and exception handling. Each exercise is designed to reinforce fundamental principles and enhance proficiency in core C++ features",
-    subjectLink: "",
-    githubLink: "",
+    subjectLink:
+      "https://github.com/Abdellahmaarifa-1337/cplusplus/tree/main/subjects",
+    githubLink: "https://github.com/Abdellahmaarifa-1337/cplusplus",
   },
   netPractice: {
     name: "NetPractice",
@@ -127,8 +134,9 @@ export const PROJECTS: ProjectsType = {
     stack: ["networking"],
     description:
       "a series of guided exercises, participants have the opportunity to gain firsthand experience in networking principles, protocols, and practices.",
-    subjectLink: "",
-    githubLink: "",
+    subjectLink:
+      "https://github.com/Abdellahmaarifa-1337/NetPractice/blob/main/subject/en.subject.pdf",
+    githubLink: "https://github.com/Abdellahmaarifa-1337/NetPractice",
   },
   inception: {
     name: "Inception",
@@ -136,8 +144,9 @@ export const PROJECTS: ProjectsType = {
     stack: ["docker"],
     description:
       "The Inception project is a comprehensive exploration of system administration, specifically focusing on the powerful tool, Docker",
-    subjectLink: "",
-    githubLink: "",
+    subjectLink:
+      "https://github.com/Abdellahmaarifa-1337/inception/blob/master/subject/en.subject.pdf",
+    githubLink: "https://github.com/Abdellahmaarifa-1337/inception",
   },
   webserver: {
     name: "webserv",
@@ -145,8 +154,9 @@ export const PROJECTS: ProjectsType = {
     stack: ["C++"],
     description:
       "The webserv project is a unique and hands-on opportunity to delve into the inner workings of the internet by building your own HTTP server",
-    subjectLink: "",
-    githubLink: "",
+    subjectLink:
+      "https://github.com/Abdellahmaarifa-1337/webServer/blob/main/subject/en.subject.pdf",
+    githubLink: "https://github.com/Abdellahmaarifa-1337/webServer",
   },
   pipex: {
     name: "pipex",
@@ -154,8 +164,9 @@ export const PROJECTS: ProjectsType = {
     stack: ["C"],
     description:
       "a comprehensive dive into two essential concepts: Redirections and Pipes. Designed as a foundational introduction, this project goes beyond the basics, providing a nuanced understanding of these fundamental UNIX operations",
-    subjectLink: "",
-    githubLink: "",
+    subjectLink:
+      "https://github.com/Abdellahmaarifa-1337/pipex/blob/main/subject/en.subject.pdf",
+    githubLink: "https://github.com/Abdellahmaarifa-1337/pipex",
   },
   philo: {
     name: "Philosophers",
@@ -163,8 +174,9 @@ export const PROJECTS: ProjectsType = {
     stack: ["C"],
     description:
       " dynamic simulation where philosophers alternated between eating, thinking, and sleeping. Demonstrated expertise in threading and concurrent programming, ensuring precise timing and avoiding starvation",
-    subjectLink: "",
-    githubLink: "",
+    subjectLink:
+      "https://github.com/Abdellahmaarifa-1337/philosophers/blob/master/subject/en.subject.pdf",
+    githubLink: "https://github.com/Abdellahmaarifa-1337/philosophers",
   },
   transadence: {
     name: "Transadence",
@@ -172,7 +184,7 @@ export const PROJECTS: ProjectsType = {
     stack: ["typescript"],
     description:
       "a feature-rich online Pong game equipped with an integrated chat system. The chat functionality includes public, private, and protected rooms, facilitating diverse interaction modes",
-    subjectLink: "",
-    githubLink: "",
+    subjectLink: "https://github.com/Abdellahmaarifa/overPing",
+    githubLink: "https://github.com/Abdellahmaarifa/overPing",
   },
 };
