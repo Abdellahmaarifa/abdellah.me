@@ -25,18 +25,10 @@ const Conatct = () => {
         fundamentals I learned at 1337 enable me to adapt swiftly and learn
         anything. In fact, I am continually learning, utilizing all available
         resources. I particularly enjoy books that delve deep into the subject.
-        Here are some books I've completed and found enjoyable:
       </p>
-      <div tw="flex items-center justify-center p-[10px] gap-[15px] flex-wrap">
-        <div tw=" w-[150px] h-fit rounded-[5px] bg-[#152B3D] p-[5px] [border: 1px solid #0D558D] flex justify-center items-center">
-          <div tw="w-[100%] rounded-[5px] ">
-            <img src={BookImg} tw="h-full" alt="" />
-          </div>
-        </div>
-      </div>
       <p>
-        I am actively pursuing various courses available to me, earning several
-        certifications
+        I am also actively pursuing various courses available to me, earning
+        several certifications
       </p>
       <div tw="flex items-center justify-center p-[10px] gap-[15px] flex-wrap w-full">
         <div tw=" w-[90%] h-auto rounded-[5px] bg-[#152B3D] [border: 1px solid #0D558D] flex justify-center items-start gap-[15px] p-[10px] flex-col">
@@ -59,7 +51,7 @@ const Conatct = () => {
       </p>
       <div tw="w-full h-fit  rounded-[5px] sm:[padding: 40px 0]">
         <h1 tw="m-auto w-full text-center mb-[32px] capitalize text-[25px] text-white font-inter [font-weight: 600]">
-          ChallengeGo
+          Oplla
         </h1>
         <div tw="flex w-full flex-col h-auto gap-[10px] ">
           <Feature
@@ -68,7 +60,7 @@ const Conatct = () => {
             title="Idea"
             description="A social platform to share your progress in any challenge with people who are interested in the same challenge. You can create and share your custom challenges, having fun along the way."
             icon={IdeaIcon}
-            link="https://github.com/Abdellahmaarifa"
+            link="https://github.com/Abdellahmaarifa/oplla"
             actionText="any suggestion? let me here you"
           />
           <Feature
@@ -77,7 +69,7 @@ const Conatct = () => {
             title="Motivation"
             description="I've experimented with various habit-tracking apps, attempting to cultivate habits in different fields. What I found lacking was the ability to share these commitments with the world and compete with individuals who share similar interests. This realization prompted us, me and my friends to embark on the development of our own app"
             icon={MotivationIcon}
-            link="https://github.com/Abdellahmaarifa"
+            link="https://github.com/Abdellahmaarifa/oplla"
             actionText="any suggestion? let me here you"
           />
           <Feature
@@ -86,7 +78,7 @@ const Conatct = () => {
             title="Development state"
             description="We are currently in the design phase, constructing the UI and UX. You can track the project's development on GitHub as we progress. or even contribute to it"
             icon={StateICon}
-            link="https://github.com/Abdellahmaarifa"
+            link="https://github.com/Abdellahmaarifa/oplla"
             actionText="watch the project"
           />
         </div>

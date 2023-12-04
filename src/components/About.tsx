@@ -4,21 +4,20 @@ const About = () => {
   return (
     <div id="about" tw="w-full p-[20px] md:p-0">
       <Paragraph>
-        <span tw="flex flex-col justify-start items-start w-fit p-[10px]  text-[12px] xsm:text-[16px]">
+        <span tw="flex flex-col justify-start items-start  p-[10px]  text-[12px] xsm:text-[16px] w-[80%]">
           <span tw="relative ">
             <span tw="absolute -top-[20px] -left-[20px]">
               <QuoteIcon tw="w-[30px] fill-[#BDC3C7]" />
             </span>
             <span tw="[padding: 0 5px]">
-              Seek knowledge from the cradle to the grave.
+              Knowledge without action is wastefulness and action without
+              knowledge is foolishness.
             </span>
             <span>
               <QuoteIcon tw="w-[30px] absolute rotate-[180deg] -right-[20px] -bottom-[20px]  fill-[#BDC3C7]" />
             </span>
           </span>
-          <span tw="text-[12px] self-end mr-[10px]">
-            Prophet <span tw="font-bold ">muhammad</span> (peace be upon him).
-          </span>
+          <span tw="text-[12px] self-end mr-[10px] font-bold">Al Ghazali</span>
         </span>
         <span>
           This is the philosophy upon which I've built my life. It's the same

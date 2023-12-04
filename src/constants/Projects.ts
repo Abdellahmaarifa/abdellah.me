@@ -37,135 +37,141 @@ export const PROJECTS: ProjectsType = {
   libft: {
     name: "Libft",
     image: LibftIcon,
-    stack: ["html"],
+    stack: ["C"],
     description:
-      "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus. ",
-    subjectLink: "",
-    githubLink: "",
+      "Libft is a that project involves implementing custom \
+      versions of standard library functions, such as strlen and strcpy, along with utility functions that become \
+      fundamental tools for future projects",
+    subjectLink:
+      "https://github.com/Abdellahmaarifa-1337/Libft/blob/master/en.subject.pdf",
+    githubLink: "https://github.com/Abdellahmaarifa-1337/Libft",
   },
   getNextLine: {
     name: "Get Next Line",
     image: GetNextLineIcon,
-    stack: ["html"],
+    stack: ["C"],
     description:
-      "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus. ",
-    subjectLink: "",
-    githubLink: "",
+      "project is an essential utility designed to read content line by line, whether from a file, standard input (stdin), or even a network connection",
+    subjectLink: "https://github.com/Abdellahmaarifa-1337/get_next_line",
+    githubLink:
+      "https://github.com/Abdellahmaarifa-1337/get_next_line/blob/main/en.subject%20(1).pdf",
   },
   printf: {
     name: "Printf",
     image: PrintfIcon,
-    stack: ["html"],
+    stack: ["C"],
     description:
-      "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus. ",
+      "This project serves as a comprehensive introduction to variadic functions, providing insights into their functionality and implementation. Once validated, this custom printf function becomes a reusable tool for formatting output and will play a vital role in future projects.",
     subjectLink: "",
     githubLink: "",
   },
   born: {
-    name: "Born to be root",
+    name: "Born2beroot",
     image: BornIcon,
-    stack: ["html"],
+    stack: ["Linux"],
     description:
-      "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus. ",
+      "The Born2beroot project marks the initiation into the fascinating realm of virtualization. It is designed to provide a foundational understanding of virtualization technologies and their applications.",
     subjectLink: "",
     githubLink: "",
   },
   solong: {
-    name: "So long",
+    name: "so_long",
     image: SolongIcon,
-    stack: ["html"],
+    stack: ["C"],
     description:
-      "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus. ",
+      "The so_long project is an immersive exploration into the world of game development using the minilibx library. This project offers hands-on experience with creating a small 2D game, delving into essential concepts such as textures, sprites, and tiles.",
     subjectLink: "",
     githubLink: "",
   },
   pushSwap: {
-    name: "Push Swap",
+    name: "push_swap",
     image: PushSwapIcon,
-    stack: ["html"],
+    stack: ["C"],
     description:
-      "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus. ",
+      "The push_swap project is a challenging exploration into sorting data on a stack using a limited set of instructions and minimizing the number of moves",
     subjectLink: "",
     githubLink: "",
   },
   minishell: {
-    name: "Minishell",
+    name: "minishell",
     image: MinishellIcon,
-    stack: ["html"],
+    stack: ["C"],
     description:
-      "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus. ",
+      "In the mini-shell Creation project, the goal was to conceive and implement a straightforward yet functional shell—a fundamental component of operating systems.",
     subjectLink: "",
     githubLink: "",
   },
   cube: {
-    name: "Cube3d",
+    name: "cub3d",
     image: CubeIcon,
-    stack: ["html"],
+    stack: ["C"],
     description:
-      "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus. ",
+      "Embark on a captivating journey inspired by the world-famous 90's first-person shooter. \
+      The cub3d Maze Exploration project invites exploration into the fascinating \
+      realm of ray-casting.",
     subjectLink: "",
     githubLink: "",
   },
   cPlusPlus: {
-    name: "C++",
+    name: "c++",
     image: CPlusPlusIcon,
-    stack: ["html"],
+    stack: ["c++"],
     description:
-      "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus. ",
+      "a series of exercises targeting essential concepts in C++, with a specific focus on inheritance, IO operations, polymorphism, casting, and exception handling. Each exercise is designed to reinforce fundamental principles and enhance proficiency in core C++ features",
     subjectLink: "",
     githubLink: "",
   },
   netPractice: {
-    name: "Net Practice",
+    name: "NetPractice",
     image: NetPracticeIcon,
-    stack: ["html"],
+    stack: ["networking"],
     description:
-      "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus. ",
+      "a series of guided exercises, participants have the opportunity to gain firsthand experience in networking principles, protocols, and practices.",
     subjectLink: "",
     githubLink: "",
   },
   inception: {
     name: "Inception",
     image: InceptionIcon,
-    stack: ["html"],
+    stack: ["docker"],
     description:
-      "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus. ",
+      "The Inception project is a comprehensive exploration of system administration, specifically focusing on the powerful tool, Docker",
     subjectLink: "",
     githubLink: "",
   },
   webserver: {
-    name: "Web server",
+    name: "webserv",
     image: WebserverIcon,
-    stack: ["html"],
+    stack: ["C++"],
     description:
-      "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus. ",
+      "The webserv project is a unique and hands-on opportunity to delve into the inner workings of the internet by building your own HTTP server",
     subjectLink: "",
     githubLink: "",
   },
   pipex: {
-    name: "Pipx",
+    name: "pipex",
     image: PipexIcon,
-    stack: ["html"],
+    stack: ["C"],
     description:
-      "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus. ",
+      "a comprehensive dive into two essential concepts: Redirections and Pipes. Designed as a foundational introduction, this project goes beyond the basics, providing a nuanced understanding of these fundamental UNIX operations",
     subjectLink: "",
     githubLink: "",
   },
   philo: {
-    name: "Philo",
+    name: "Philosophers",
     image: PhiloIcon,
-    stack: ["html"],
+    stack: ["C"],
     description:
-      "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus. ",
+      " dynamic simulation where philosophers alternated between eating, thinking, and sleeping. Demonstrated expertise in threading and concurrent programming, ensuring precise timing and avoiding starvation",
     subjectLink: "",
     githubLink: "",
   },
   transadence: {
     name: "Transadence",
     image: TransadenceIcon,
-    stack: ["html"],
+    stack: ["typescript"],
     description:
-      "This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus. ",
+      "a feature-rich online Pong game equipped with an integrated chat system. The chat functionality includes public, private, and protected rooms, facilitating diverse interaction modes",
     subjectLink: "",
     githubLink: "",
   },
