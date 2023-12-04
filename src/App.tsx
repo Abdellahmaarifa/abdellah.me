@@ -5,11 +5,33 @@ import About from "./components/About";
 import CommonCore from "./components/CommonCore";
 import ProjectInfo from "./components/ProjectInfo";
 import Projects from "./components/Projects";
-import ViewMoreBtn from "./components/ViewMoreBtn";
 import { useProjectContext } from "./context/Project";
-import Conatct from "./components/Contact";
 import Header from "./components/Header";
 import MobHeader from "./components/MobHeader";
+import ContactSection from "./components/ContactSection";
+
+const App = () => {
+  const { setProject } = useProjectContext();
+  return (
+    <HomeContainer
+      onClick={() => {
+        setProject(null);
+      }}
+    >
+      <HomeSide />
+      <Body>
+        <MobHeader />
+        <About />
+        <CommonCore />
+        <Projects />
+        <ContactSection />
+      </Body>
+      <ProjectInfo />
+    </HomeContainer>
+  );
+};
+
+// Styling
 
 const HomeContainer = tw.div`
   bg-[#0c1a24]
@@ -28,31 +50,16 @@ const HomeContainer = tw.div`
 
 `;
 
-const App = () => {
-  const { project, setProject } = useProjectContext();
-  return (
-    <HomeContainer
-      onClick={(e) => {
-        setProject(null);
-      }}
-    >
-      <HomeSide />
-      <Body>
-        <MobHeader />
-        <About />
-        <CommonCore />
-        <Projects />
-        <Conatct />
-      </Body>
-      <ProjectInfo />
-    </HomeContainer>
-  );
-};
-
-// Styling
-
 const Body = tw.div`
-  h-full overflow-hidden  flex-1 flex flex-col gap-[60px]   md:[padding: 60px 40px 0 40px] justify-center items-center m-auto
+  h-full 
+  overflow-hidden  
+  flex-1 
+  flex 
+  flex-col 
+  gap-[60px]   
+  md:[padding: 60px 40px 0 40px] 
+  justify-center 
+  items-center m-auto
 `;
 
 export default App;

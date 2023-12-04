@@ -1,6 +1,7 @@
 import { CSSProperties } from "react";
 import RightArrow from "../assets/arrow-right.svg?react";
 import tw from "twin.macro";
+import { ActionBtnContainer } from "../styles/ViewMoreBtn.style";
 
 const ViewMoreBtn = ({
   text,
@@ -30,12 +31,5 @@ const ViewMoreBtn = ({
     </ActionBtnContainer>
   );
 };
-
-const ActionBtnContainer = tw.div`
-     [font-weight: 500] font-inter flex gap-[5px] justify-center items-center 
-    hover:gap-[10px] [transition: all .1s]
-    hover:[&>a]:[border-bottom: 1px solid #17A2B8]
-    text-white cursor-pointer
-`;
 
 export default ViewMoreBtn;

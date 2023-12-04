@@ -18,10 +18,17 @@ const Footer = () => {
 
 // Styling
 const HomeLinks = tw.footer`
-  flex gap-[15px] w-full  [padding: 0 40px]
+  flex 
+  gap-[15px] 
+  w-full  
+  [padding: 0 40px]
 `;
 const HomeLinksIcon = tw.a`
-  w-[25px] h-auto [&>*]:fill-[#a9bbcb] [&>*]:h-full [&>*]:w-full 
+  w-[25px] 
+  h-auto 
+  [&>*]:fill-[#a9bbcb] 
+  [&>*]:h-full 
+  [&>*]:w-full 
 `;
 
 export default Footer;

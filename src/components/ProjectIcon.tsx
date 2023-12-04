@@ -1,12 +1,6 @@
 import { CSSProperties, MouseEventHandler } from "react";
 import tw from "twin.macro";
 
-const ProjectIconContainer = tw.div`
-   cursor-pointer xsm:w-[40px] xsm:h-[40px] md:w-[35px] md:h-[35px] w-[30px] h-[30px] bg-[#152B3D] absolute z-[2] 
-    border-[#0D5287] border-[1px] border-solid
-     rounded-[8px] justify-center items-center flex
-`;
-
 interface Position {
   left?: string | undefined;
   right?: string | undefined;
@@ -52,4 +46,20 @@ const ProjectIcon = ({
   );
 };
 
+const ProjectIconContainer = tw.div`
+  cursor-pointer 
+  xsm:w-[40px] 
+  xsm:h-[40px] 
+  md:w-[35px] 
+  md:h-[35px] 
+  w-[30px] 
+  h-[30px] 
+  bg-[#152B3D] absolute z-[2] 
+  border-[#0D5287] 
+  border-[1px] border-solid
+  rounded-[8px] 
+  justify-center 
+  items-center
+  flex
+`;
 export default ProjectIcon;

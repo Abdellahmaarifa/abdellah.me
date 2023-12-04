@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div id="about" tw="w-full p-[20px] md:p-0">
       <Paragraph>
-        <span tw="flex flex-col justify-start items-start  p-[10px]  text-[12px] xsm:text-[16px] w-[80%]">
+        <span tw="flex flex-col justify-start items-start  p-[10px] text-[12px] xsm:text-[16px] w-[80%]">
           <span tw="relative ">
             <span tw="absolute -top-[20px] -left-[20px]">
               <QuoteIcon tw="w-[30px] fill-[#BDC3C7]" />
@@ -47,6 +47,12 @@ const About = () => {
 
 // Styling
 const Paragraph = tw.p`
-    text-[#a9bbcb] text-[14px] xsm:text-[16px] sm:text-[18px]  flex flex-col gap-[12px] 
+    text-[#a9bbcb] 
+    text-[14px] 
+    xsm:text-[16px] 
+    sm:text-[18px]  
+    flex 
+    flex-col 
+    gap-[12px] 
 `;
 export default About;

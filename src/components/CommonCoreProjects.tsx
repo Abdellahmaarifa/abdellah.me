@@ -1,22 +1,7 @@
-import ToolIcon from "../assets/tool-box.png";
-import GetNextLineIcon from "../assets/get_next_line_icon.png";
-import PrintfIcon from "../assets/printf.png";
-import BornIcon from "../assets/born.png";
-import SolongIcon from "../assets/so_long.png";
-import PipexIcon from "../assets/pipex.png";
-import PushSwapIcon from "../assets/push_swap.png";
-import MinishellIcon from "../assets/minishell.png";
-import CubeIcon from "../assets/cube3d.png";
-import NetPracticeIcon from "../assets/netpractice.png";
-import CPlusPlusIcon from "../assets/c++.png";
-import InceptionIcon from "../assets/inception.png";
-import WebserverIcon from "../assets/webserver.png";
-import TransadenceIcon from "../assets/transandence.png";
-import PhiloIcon from "../assets/philosopher.png";
 import ProjectIcon from "./ProjectIcon";
 import { useProjectContext } from "../context/Project";
 import { PROJECTS } from "../constants/Projects";
-import tw from "twin.macro";
+
 const CommonCoreProjects = () => {
   const { project, setProject } = useProjectContext();
   return (
