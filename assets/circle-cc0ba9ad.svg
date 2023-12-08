@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1268 1268" width="1268" height="1268">
+	<title>circle-svg</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,1268,-1268,0,634,0)">
+			<stop offset=".057" stop-color="#0d80d8" stop-opacity="0"/>
+			<stop offset=".5" stop-color="#0d80d8" stop-opacity=".71"/>
+			<stop offset=".911" stop-color="#0d80d8" stop-opacity="0"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: url(#g1);stroke-width: 2 } 
+	</style>
+	<path id="Layer" class="s0" d="m634 1267c-350 0-633-283-633-633 0-350 283-633 633-633 350 0 633 283 633 633 0 350-283 633-633 633z"/>
+</svg>
