@@ -1,4 +1,5 @@
 {
+  "homepage":"Abdellahmaarifa.github.io/abdellah.me",
   "name": "vite-styled-components-typescript",
   "type": "module",
   "babelMacros": {
@@ -9,6 +10,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "predeploy":"vite build",
+    "deploy":"gh-pages -d build",
     "serve": "vite preview"
   },
   "dependencies": {
