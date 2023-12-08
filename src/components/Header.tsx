@@ -12,6 +12,7 @@ import {
   ImgContainer,
   LogoContainer,
 } from "../styles/Header.style";
+import { RESUME_LINK } from "../constants/Links";
 
 const Header = () => {
   return (
@@ -40,7 +41,7 @@ const Header = () => {
           style={{
             marginTop: "20px",
           }}
-          link="/resume.pdf"
+          link={RESUME_LINK}
         />
       </HomeInfo>
     </HeadingContainer>

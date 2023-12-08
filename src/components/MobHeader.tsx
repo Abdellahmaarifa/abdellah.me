@@ -3,6 +3,7 @@ import tw from "twin.macro";
 import Logo from "../assets/logo.svg?react";
 import ProfileImg from "../assets/profile.png";
 import ViewMoreBtn from "./ViewMoreBtn";
+import { RESUME_LINK } from "../constants/Links";
 
 const MobHeader = () => {
   return (
@@ -27,6 +28,7 @@ const MobHeader = () => {
           style={{
             marginTop: "20px",
           }}
+          link={RESUME_LINK}
         />
       </HomeInfo>
     </HeadingContainer>
