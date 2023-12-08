@@ -9,8 +9,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "predeploy":"vite build",
+    "build": "tsc && vite build; cp resume.pdf dist/resume.pdf",
+    "predeploy":"vite build; cp resume.pdf dist/resume.pdf",
     "deploy":"gh-pages -d dist",
     "serve": "vite preview"
   },
