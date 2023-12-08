@@ -1,1 +1,1 @@
-export const RESUME_LINK = "./resume.pdf";
+export const RESUME_LINK = "/resume.pdf";
