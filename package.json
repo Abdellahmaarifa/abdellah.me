@@ -1,37 +1,42 @@
 {
-  "homepage":"Abdellahmaarifa.github.io/abdellah.me",
-  "name": "vite-styled-components-typescript",
-  "type": "module",
-  "babelMacros": {
-    "twin": {
-      "preset": "styled-components"
-    }
-  },
+  "name": "abdellah",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build; cp resume.pdf dist/resume.pdf",
-    "predeploy":"vite build; cp resume.pdf dist/resume.pdf",
-    "deploy":"gh-pages -d dist",
-    "serve": "vite preview"
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@types/react-scrollspy": "^3.3.9",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scrollspy": "^3.4.3",
-    "styled-components": "^6.0.4",
-    "vite-plugin-svgr": "^4.2.0"
+    "@hookform/resolvers": "^3.9.1",
+    "@radix-ui/react-dropdown-menu": "^2.1.2",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-separator": "^1.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-tooltip": "^1.1.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.12.0",
+    "lucide-react": "^0.462.0",
+    "next": "15.0.3",
+    "next-themes": "^0.4.3",
+    "radix-ui": "^1.0.1",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-hook-form": "^7.53.2",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
-    "@vitejs/plugin-react": "^4.0.3",
-    "babel-plugin-macros": "^3.1.0",
-    "babel-plugin-styled-components": "^2.1.4",
-    "gh-pages": "^6.1.0",
-    "tailwindcss": "^3.3.3",
-    "twin.macro": "^3.4.0",
-    "typescript": "^5.1.6",
-    "vite": "5.0.5"
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
